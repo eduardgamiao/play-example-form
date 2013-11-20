@@ -144,6 +144,21 @@ have a Maven dependency of JQuery 1.9.0.  [Build.scala](https://github.com/ics-s
 illustrates how to load a newer version of Bootstrap with an older, HTMLUnit-compliant version of JQuery.
 Another solution is to use [PhantomJS](http://phantomjs.org/) rather than HTMLUnit; then you can
 use current versions of JQuery. [This fork](https://github.com/buster84/play-example-form) shows how to use PhantomJS.
+
+ER Design
+---------
+
+![screenshot](https://raw.github.com/eduardgamiao/play-example-form/master/doc/ERD-Play-Example-Form%20-%20New%20Page.png)
+
+This design follows the models specified in this application. The following assumptions were made:
+
+- A Student can have zero or more Majors.
+- A Student can have zero or more Hobbies.
+- A Student can have only one GradeLevel.
+- A Student can have only one GradePointAverage.
+- Major, Hobby, GradeLevel and GradePointAverage can be tied to zero to many students. 
+
+I did not include foreign keys in the student entity table.
         
 Issues
 ------
@@ -183,20 +198,5 @@ Acknowledgements
 
 This example is a descendent of the original [play-form-kludge](https://github.com/philipmjohnson/play-form-kludge/tree/original)
 and [Jason Pearson](https://github.com/kaeawc)'s [very helpful improvements](https://github.com/philipmjohnson/play-form-kludge).
-
-ER Design
----------
-
-![screenshot](https://raw.github.com/eduardgamiao/play-example-form/master/doc/ERD-Play-Example-Form%20-%20New%20Page.png)
-
-This design follows the models specified in this application. The following assumptions were made:
-
-- A Student can have zero or more Majors.
-- A Student can have zero or more Hobbies.
-- A Student can have only one GradeLevel.
-- A Student can have only one GradePointAverage.
-- Major, Hobby, GradeLevel and GradePointAverage can be tied to zero to many students. 
-
-I did not include foreign keys in the student entity table.
 
     
