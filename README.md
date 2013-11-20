@@ -2,7 +2,7 @@ Overview
 ========
 
 ![screenshot](https://raw.github.com/ics-software-engineering/play-example-form/master/doc/play-example-form-homepage.png)
-![screenshot](https://raw.github.com/ics-software-engineering/play-example-form/master/doc/ERD-Play-Example-Form.png)
+![screenshot](https://github.com/eduardgamiao/play-example-form/blob/master/doc/ERD-Play-Example-Form%20-%20New%20Page.png)
 
 This application provides an example of form processing with the following features:
 
