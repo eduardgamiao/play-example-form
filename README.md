@@ -3,10 +3,6 @@ Overview
 
 ![screenshot](https://raw.github.com/ics-software-engineering/play-example-form/master/doc/play-example-form-homepage.png)
 
-ER Design
-
-![screenshot](https://raw.github.com/eduardgamiao/play-example-form/master/doc/ERD-Play-Example-Form%20-%20New%20Page.png)
-
 This application provides an example of form processing with the following features:
 
   * Play Version 2.2
@@ -188,5 +184,19 @@ Acknowledgements
 This example is a descendent of the original [play-form-kludge](https://github.com/philipmjohnson/play-form-kludge/tree/original)
 and [Jason Pearson](https://github.com/kaeawc)'s [very helpful improvements](https://github.com/philipmjohnson/play-form-kludge).
 
-A Commit for a better future.
+ER Design
+---------
+
+![screenshot](https://raw.github.com/eduardgamiao/play-example-form/master/doc/ERD-Play-Example-Form%20-%20New%20Page.png)
+
+This design follows the models specified in this application. The following assumptions were made:
+
+- A Student can have zero or more Majors.
+- A Student can have zero or more Hobbies.
+- A Student can have only one GradeLevel.
+- A Student can have only one GradePointAverage.
+- Major, Hobby, GradeLevel and GradePointAverage can be tied to zero to many students. 
+
+I did not include foreign keys in the student entity table.
+
     
