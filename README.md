@@ -3,7 +3,7 @@ Overview
 
 ![screenshot](https://raw.github.com/ics-software-engineering/play-example-form/master/doc/play-example-form-homepage.png)
 
-ER Diagram
+ER Design
 
 ![screenshot](https://raw.github.com/eduardgamiao/play-example-form/master/doc/ERD-Play-Example-Form%20-%20New%20Page.png)
 
